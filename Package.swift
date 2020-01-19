@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "F6Compose",
             dependencies: []),
-        .testTarget(
-            name: "F6ComposeTests",
-            dependencies: ["F6Compose"]),
     ]
 )
